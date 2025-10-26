@@ -39,7 +39,9 @@
 </template>
 
 <script>
-import NavBar from '../components/common/NavBar.vue'
+
+
+import NavBar from '@/components/common/NavBar.vue';
 import { loadTickets } from '../store/storage'
 
 export default {
