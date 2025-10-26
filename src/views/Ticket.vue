@@ -56,14 +56,14 @@
 <script>
 
 
-import NavBar from '@/components/common/NavBar.vue';
 import TicketForm from '../components/TicketForm.vue'
 import { loadTickets, saveTickets } from '../store/storage'
+import Navbar from '@/components/common/Navbar.vue';
 
 export default {
   name: 'Ticket',
   components: {
-    NavBar,
+    Navbar,
     TicketForm
   },
   data() {

@@ -42,8 +42,8 @@
 
 
 
-import NavBar from '@/components/common/NavBar.vue';
 import { loadTickets } from '../store/storage'
+import NavBar from '@/components/common/Navbar.vue';
 
 export default {
   name: 'Dashboard',
