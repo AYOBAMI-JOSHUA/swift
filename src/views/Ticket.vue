@@ -54,7 +54,8 @@
 </template>
 
 <script>
-import NavBar from '../components/common/NavBar.vue'
+
+import NavBar from '@/components/common/NavBar.vue';
 import TicketForm from '../components/TicketForm.vue'
 import { loadTickets, saveTickets } from '../store/storage'
 
