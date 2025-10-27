@@ -64,7 +64,7 @@ export default {
   name: 'Ticket',
   components: {
     Navbar,
-    TicketForm,
+    TicketForm
   },
   data() {
     return {
