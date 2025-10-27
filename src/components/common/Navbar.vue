@@ -43,7 +43,7 @@
 import { isAuthenticated, clearSession } from '../../store/storage'
 
 export default {
-  name: 'NavBar',
+  name: 'Navbar',
   data() {
     return {
       menuOpen: false,

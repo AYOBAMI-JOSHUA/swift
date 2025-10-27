@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar />
+    <Navbar />
 
     <main class="dashboard" role="main">
       <header class="dashboard-header">
@@ -42,13 +42,14 @@
 
 
 
+
+import Navbar from '@/components/common/Navbar.vue';
 import { loadTickets } from '../store/storage'
-import NavBar from '@/components/common/Navbar.vue';
 
 export default {
   name: 'Dashboard',
   components: {
-    NavBar
+    Navbar
   },
   computed: {
     tickets() {

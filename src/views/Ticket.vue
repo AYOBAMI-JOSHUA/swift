@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar />
+    <Navbar />
     <main class="site-container-inner">
       <header class="headT">
         <h1>Tickets</h1>
@@ -56,9 +56,11 @@
 <script>
 
 
+
 import Navbar from '@/components/common/Navbar.vue';
 import TicketForm from '../components/TicketForm.vue'
 import { loadTickets, saveTickets } from '../store/storage'
+
 
 export default {
   name: 'Ticket',
