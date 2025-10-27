@@ -56,9 +56,9 @@
 <script>
 
 
+import Navbar from '@/components/common/Navbar.vue';
 import TicketForm from '../components/TicketForm.vue'
 import { loadTickets, saveTickets } from '../store/storage'
-import Navbar from '@/components/common/Navbar.vue';
 
 export default {
   name: 'Ticket',
